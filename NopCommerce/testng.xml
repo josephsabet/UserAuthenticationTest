@@ -1,0 +1,32 @@
+<suite name="NopCommerce Suite">
+	 <test name="Registration Tests">
+        <classes>
+            <class name="Scenario_1 tests.RegisterTest"/>
+            	<class name="Scenario_2 tests.LoginTest" />
+            	<class name=" Scenario_3tests.CurrencyTest"/>
+            	<class name="Scenario_4 tests.SearchTest"/>
+            	  <class name="Scenario_5 tests.SliderTest"/>
+            	    <class name="Scenario_6 tests.FollowUsTest"/>
+            	            <class name="Scenario_7 tests.WishlistTest"/>
+
+        </classes>
+    </test>
+	
+	<test name="LoginTests">
+		<classes>
+		
+		</classes>
+
+	</test>
+	 <test name="Currency Tests">
+        <classes>
+            
+        </classes>
+    </test>
+    <test name="Search Functionality Tests">
+        <classes>
+            
+        </classes>
+    </test>
+</suite>
+

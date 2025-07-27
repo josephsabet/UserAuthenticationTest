@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [NopCommerce Suite]">
+  <test thread-count="5" name="Registration Tests(failed)">
+    <classes>
+      <class name="tests.SearchTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="testSearchByProductName"/>
+          <include name="setUp"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- tests.SearchTest -->
+      <class name="tests.LoginTest">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.RegisterTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="validRegistrationTest"/>
+          <include name="setUp"/>
+          <include name="tearDownTest"/>
+        </methods>
+      </class> <!-- tests.RegisterTest -->
+      <class name="tests.CurrencyTest">
+        <methods>
+          <include name="tearDownTest"/>
+          <include name="tearDown"/>
+          <include name="testEuroSymbolAppearsForAllProducts"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CurrencyTest -->
+    </classes>
+  </test> <!-- Registration Tests(failed) -->
+</suite> <!-- Failed suite [NopCommerce Suite] -->
